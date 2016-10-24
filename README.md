@@ -226,7 +226,7 @@ Returns data from ES.
 
 Supports most standard ES syntax with a few extras:
 
-Example: `es:logstash type:info_log | agg:terms ip_addr`
+Example: `es:logstash _type:info_log | agg:terms ip_addr;`
 
 
 ### Sort ###
